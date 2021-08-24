@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      function createParagraph() {
+        let para = document.createElement("p");
+        para.textContent = "You click the button";
+        document.body.appendChild(para);
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="createParagraph()">Click Me!!</button>
+  </body>
+</html>
